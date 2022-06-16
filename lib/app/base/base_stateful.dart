@@ -13,7 +13,7 @@ abstract class BaseStateful<T extends StatefulWidget, E extends BaseViewModel>
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance?.addPostFrameCallback((_) {
+    WidgetsBinding.instance!.addPostFrameCallback((_) {
       if (mounted) {
         afterFirstBuild(context);
       }

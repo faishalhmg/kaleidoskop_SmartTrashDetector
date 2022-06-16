@@ -34,7 +34,7 @@ class _CameraScreenState extends BaseStateful<CameraScreen, CameraViewModel>
   @override
   void afterFirstBuild(BuildContext context) {
     super.afterFirstBuild(context);
-    WidgetsBinding.instance?.addObserver(this);
+    WidgetsBinding.instance!.addObserver(this);
   }
 
   @override
@@ -79,7 +79,7 @@ class _CameraScreenState extends BaseStateful<CameraScreen, CameraViewModel>
   @override
   void dispose() {
     super.dispose();
-    WidgetsBinding.instance?.removeObserver(this);
+    WidgetsBinding.instance!.removeObserver(this);
     apertureController.close();
   }
 

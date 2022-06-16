@@ -1,4 +1,4 @@
 anorganik
 organik
 sampah
-sampah_medis
+sampah_medis(anorganik)
