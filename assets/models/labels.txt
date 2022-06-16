@@ -1,0 +1,4 @@
+anorganik
+organik
+sampah
+sampah_medis
